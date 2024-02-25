@@ -27,7 +27,7 @@ rm -rf vendor/gms
 rm -rf .repo/projects/vendor/gms.git
 rm -rf .repo/project-objects/*/android_vendor_gms.git
 
-repo init --depth=1 --no-repo-verify -u https://github.com/minaripenguin/android -b fourteen --git-lfs -g default,-mips,-darwin,-notdefault
+repo init --depth=1 --no-repo-verify -u https://github.com/14a-opti/android-rising -b fourteen --git-lfs -g default,-mips,-darwin,-notdefault
 ```
 **in case of repo syncing failures try this instead**
 
